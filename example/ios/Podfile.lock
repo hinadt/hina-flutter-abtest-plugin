@@ -1,0 +1,45 @@
+PODS:
+  - Flutter (1.0.0)
+  - hina_flutter_abtest_plugin (0.0.1):
+    - Flutter
+    - HinaABTesting
+  - hina_flutter_plugin (0.0.1):
+    - Flutter
+    - HinaCloudSDK (>= 3.3.1)
+  - HinaABTesting (0.0.2)
+  - HinaCloudSDK (4.0.1)
+  - integration_test (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - hina_flutter_abtest_plugin (from `.symlinks/plugins/hina_flutter_abtest_plugin/ios`)
+  - hina_flutter_plugin (from `.symlinks/plugins/hina_flutter_plugin/ios`)
+  - integration_test (from `.symlinks/plugins/integration_test/ios`)
+
+SPEC REPOS:
+  trunk:
+    - HinaABTesting
+    - HinaCloudSDK
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  hina_flutter_abtest_plugin:
+    :path: ".symlinks/plugins/hina_flutter_abtest_plugin/ios"
+  hina_flutter_plugin:
+    :path: ".symlinks/plugins/hina_flutter_plugin/ios"
+  integration_test:
+    :path: ".symlinks/plugins/integration_test/ios"
+
+SPEC CHECKSUMS:
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  hina_flutter_abtest_plugin: 4d2e841e7bd3aca957d7870dca29d5147bac3abc
+  hina_flutter_plugin: 8af7cfb86a4f0988a0033859164904621a7ae663
+  HinaABTesting: 3c1fc50519731aa74298910da7d98c454929e5d5
+  HinaCloudSDK: 6d03d1d50041ad89310556ebe053f5ae53f88897
+  integration_test: 252f60fa39af5e17c3aa9899d35d908a0721b573
+
+PODFILE CHECKSUM: 1a782344d33c12ced0182eeab11e8668d253eb48
+
+COCOAPODS: 1.12.1
