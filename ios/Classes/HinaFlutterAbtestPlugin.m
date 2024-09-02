@@ -12,9 +12,11 @@
 }
 
 - (void)handleMethodCall:(FlutterMethodCall*)call result:(FlutterResult)result {
+    /*
     NSLog(@"====== handleMethodCall========");
     NSLog(@"====== call =%@========",call.method);
     NSLog(@"====== result =%@========",result);
+    */
     
     if ([@"fetchCacheABTest" isEqualToString:call.method]) {
         [self fetchCacheABTest:call result:result];
